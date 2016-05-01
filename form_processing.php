@@ -32,7 +32,11 @@
 				if (isset($_POST["email"])) {
 					$email = $_POST["email"];
 				} else {
-					$email = "";
+					$password = "";
+				} if (isset($_POST["password"])) {
+                                        $password = $_POST["password"];
+                                } else {
+                                        $password = "";
 				}
 				
 				// set default values using ternary operator
@@ -40,11 +44,12 @@
 				$firstname = isset($_POST['firstname']) ? $_POST['firstname'] : "";
 				$Lastname = isset($_POST['lastname']) ? $_POST['lastname'] : "";
 				$email = isset($_POST['email']) ? $_POST['email'] : "";
-				
+				$email = isset($_POST['password']) ? $_POST['password'] : "";	
 			} else {
 				$firstname = "";
 				$Lastname = "";
 				$email = "";
+				$password = "";
 			}
 		?>
 

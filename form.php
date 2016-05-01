@@ -11,6 +11,7 @@
 		  Firstname: <input type="text" name="firstname" value="" /><br />
 		  Lastname: <input type="text" name="lastname" value="" /><br />
 		  Email: <input type="text" name="email" value="" /><br />
+		  Password: <input type="text" name="password" value="" /><br />
 			<br />
 		  <input type="submit" name="submit" value="Submit" />
 		</form>
